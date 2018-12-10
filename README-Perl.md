@@ -129,3 +129,10 @@ t/UserApiTest.t    (Wstat: 65280 Tests: 2 Failed: 1)
 Files=9, Tests=18,  4 wallclock secs ( 0.04 usr  0.02 sys +  2.38 cusr  0.16 csys =  2.60 CPU)
 Result: FAIL
 ```
+
+This is expected behaviour as the tests are dummies without valid values.
+I'll concentrate on `t/PetTest.t` and `t/PetApiTest.t` now.
+
+## Creating a Pet object
+
+
